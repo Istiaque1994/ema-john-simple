@@ -9,19 +9,19 @@
 }
 
 @media screen and (max-width: 720px) {
-    #mobile-product{
+    .mobile-product{
         order: 2;
     }
-    #mobile-cart{
+    .mobile-cart{
         order: 1;
     }
 }
 
 @media screen and (max-width: 320px) {
-    #mobile-product{
+    .mobile-product{
         order: 2;
     }
-    #mobile-cart{
+    .mobile-cart{
         order: 1;
     }
 }

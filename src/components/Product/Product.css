@@ -1,20 +1,15 @@
 .product{
-    display: flex;
     border-bottom: 1px solid #c2c2c2a8;
     margin-right: 10px;
     margin-bottom: 5px;
     padding-bottom: 5px;
 }
-.product-image{
-    margin-right: 5px;
-}
 .product-image img{
     display: block;
-    width: 270px;
-    max-width: 100%;
+    width: 100%;
 }
 .product-text-contant{
-    width: 70%;
+    padding-top: 5px;
 }
 .product-name{
     font-size: 16px;

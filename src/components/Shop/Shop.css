@@ -8,7 +8,16 @@
     text-align: center;
 }
 
-@media screen and (min-width: 360px) {
+@media screen and (max-width: 720px) {
+    #mobile-product{
+        order: 2;
+    }
+    #mobile-cart{
+        order: 1;
+    }
+}
+
+@media screen and (max-width: 320px) {
     #mobile-product{
         order: 2;
     }

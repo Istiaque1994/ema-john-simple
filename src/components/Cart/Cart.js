@@ -31,14 +31,14 @@ const Cart = (props) => {
     const grandTotal = (total + shipping + Number(tax)).toFixed(2);
 
     return (
-        <div>
+        <div className="cart-box">
             <h4>Order Summary</h4>
-            <p>Items ordered: {cart.length}</p>
-            <p>Items: {Number(total).toFixed(2)}</p>
-            <p>Shipping & Handling: {Number(shipping).toFixed(2)}</p>
-            <p>Tax (10%): {tax}</p>
+            <p><strong>Items ordered:</strong> {cart.length}</p>
+            <p><strong>Items:</strong> {Number(total).toFixed(2)}</p>
+            <p><strong>Shipping & Handling:</strong> {Number(shipping).toFixed(2)}</p>
+            <p><strong>Tax (10%):</strong> {tax}</p>
             <h3>Order Total: {grandTotal}</h3>
-            
+            <button className="order-button">Review your order</button>
         </div>
     );
 };

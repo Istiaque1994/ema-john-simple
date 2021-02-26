@@ -1,0 +1,31 @@
+.cart-box h4{
+    font-size: 24px;
+    font-weight: 700;
+    color: #000000;
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+.cart-box p{
+    font-size: 18px;
+    color: #333333;
+    line-height: 24px;
+    margin: 0px;
+}
+.order-button{
+    background: #efba33;
+    font-size: 12px;
+    font-weight: 400;
+    color: #000000;
+    width: 200px;
+    height: 30px;
+    border: 1px solid #333333;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.cart-box h3{
+    font-size: 24px;
+    font-weight: 700;
+    color: #b12704;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}

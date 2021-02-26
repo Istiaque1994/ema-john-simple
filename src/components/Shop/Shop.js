@@ -3,7 +3,7 @@ import './Shop.css';
 import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import fakeData from '../../fakeData';
 import Product from '../Product/Product';
-import Cart from '../Cart/Cart'
+import Cart from '../Cart/Cart';
 
 const Shop = () => {
 

@@ -23,6 +23,8 @@ nav a:last-child{
     margin-right: 0px;
 }
 nav a:hover{
+    text-decoration: none;
+    color: #ffffff;
     background: #6f6f6f;
     transition: .6s;
 }

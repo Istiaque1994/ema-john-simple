@@ -1,12 +1,12 @@
-.header{
+.logo{
     text-align: center;
     padding: 10px 0px;
 }
-.header img{
+.logo img{
     width: 289px;
     max-width: 100%;
 }
-.header nav{
+.menu{
     text-align: left;
     background-color: #000000;
     font-size: 20px;

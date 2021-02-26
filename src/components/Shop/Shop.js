@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Shop.css';
+import '../../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import fakeData from '../../fakeData';
 import Product from '../Product/Product';
 import Cart from '../Cart/Cart'
@@ -18,13 +19,21 @@ const Shop = () => {
 
     return (
         <div className="shop-container">
-            <div className="product-container">
-                {
-                    products.map(pd => <Product product= {pd} handleAddProduct = {handleAddProduct}></Product>)
-                }
-            </div>
-            <div className="cart-container">
-                <Cart cart={cart}></Cart>
+            <div className="container">
+                <div className="row">
+                    <div className="col-xs-12 col-sm-12 col-md-9 col-lg-9">
+                        <div className="product-container">
+                            {
+                                products.map(pd => <Product product= {pd} handleAddProduct = {handleAddProduct}></Product>)
+                            }
+                        </div>
+                    </div>
+                    <div className="col-xs-12 col-sm-12 col-md-3 col-lg-3">
+                        <div className="cart-container">
+                            <Cart cart={cart}></Cart>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );

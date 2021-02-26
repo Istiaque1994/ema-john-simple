@@ -7,3 +7,12 @@
 .cart-container{
     text-align: center;
 }
+
+@media screen and (min-width: 360px) {
+    #mobile-product{
+        order: 2;
+    }
+    #mobile-cart{
+        order: 1;
+    }
+}
